@@ -66,7 +66,7 @@ public class HelloWorldModel {
         message = "Hello Subtree!!!!!\n"
             + "Resource type is: " + resourceType + "\n"
             + "Current page path is:  " + currentPagePath + "\n"
-            + "This is instance: " + settings.getSlingId() + "\n";
+            + "This is instance a: " + settings.getSlingId() + "\n";
     }
 
     public String getMessage() {
