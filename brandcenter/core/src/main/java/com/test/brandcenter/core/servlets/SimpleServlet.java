@@ -35,6 +35,7 @@ import java.io.IOException;
  * all resources of a specific Sling resource type. The
  * {@link SlingSafeMethodsServlet} shall be used for HTTP methods that are
  * idempotent. For write operations use the {@link SlingAllMethodsServlet}.
+ * @since 2020
  */
 @Component(service = { Servlet.class })
 @SlingServletResourceTypes(
