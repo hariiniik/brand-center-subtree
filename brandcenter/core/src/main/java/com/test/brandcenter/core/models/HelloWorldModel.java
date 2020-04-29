@@ -38,6 +38,7 @@ import java.util.Optional;
  * 
  * @author harini.kandadai
  * @since 2019
+ * @version 1.0
  *
  */
 @Model(adaptables = Resource.class)
