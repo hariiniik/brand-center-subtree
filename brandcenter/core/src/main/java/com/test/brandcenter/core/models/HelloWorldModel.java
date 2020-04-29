@@ -34,6 +34,11 @@ import com.day.cq.wcm.api.PageManager;
 
 import java.util.Optional;
 
+/**
+ * 
+ * @author harini.kandadai
+ *
+ */
 @Model(adaptables = Resource.class)
 public class HelloWorldModel {
 
