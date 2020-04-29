@@ -38,7 +38,6 @@ import java.util.Optional;
  * 
  * @author harini.kandadai
  * @since 2019
- * @version 1.0
  *
  */
 @Model(adaptables = Resource.class)
@@ -66,8 +65,8 @@ public class HelloWorldModel {
 
         message = "Hello Subtree!!!!!\n"
             + "Resource type is: " + resourceType + "\n"
-            + "Current page path is:  " + currentPagePath + "\n"
-            + "This is instance a: " + settings.getSlingId() + "\n";
+            + "Current page is:  " + currentPagePath + "\n"
+            + "This is instance: " + settings.getSlingId() + "\n";
     }
 
     public String getMessage() {
